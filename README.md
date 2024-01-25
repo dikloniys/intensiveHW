@@ -24,3 +24,20 @@ console.log(res2);
 const res3 = Boolean(true && 3) + "d";
 console.log(res3);
 trued
+
+
+
+ДЗ 3
+задача 1
+let user = new Object(); 
+let user2 = {};
+let user3 = Object.create({})
+
+задача 2
+let a = user
+
+Задание 3 – 
+
+let makeCounter = function (){}
+function makeCounter (){}
+(function makeCounter (){})()
