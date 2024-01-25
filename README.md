@@ -43,3 +43,28 @@ let a = user
 let makeCounter = function (){}
 function makeCounter (){}
 (function makeCounter (){})()
+
+
+Задание 1 –
+Написать функцию глубокого сравнения двух объектов:
+
+
+const obj1 = { here: { is:
+"on", other: "3" }, object: "Y" };
+
+const obj2 = { here: { is:
+"on", other: "2" }, object: "Y" };
+
+const deepEqual =
+(obj1, obj2) => {
+    return 
+};
+
+
+Бонус 
+Задание 2 –
+Развернуть строку в обратном направлении при помощи методов массивов:
+
+function reverseStr(str) {
+  return str.split().reverse.toString()
+}
